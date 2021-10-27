@@ -5,7 +5,7 @@ const ClosurePlugin = require('closure-webpack-plugin');
 module.exports = {
   context: path.resolve(__dirname, "src"),
   entry: {
-    "dicom-components": "./index.ts",
+    "demo": "./index.ts",
   },
   output: {
     filename: "[name].js",
